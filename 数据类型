@@ -1,0 +1,21 @@
+C语言的数据类型
+char 字符数据类型
+short 短整型
+int 整形 
+long 长整型
+long long 更长的整形
+float 单精度浮点型
+double 双精度浮点型
+
+#include <stdio.h>
+int main ()
+{
+    printf("%d\n",100);
+    //sizeof 计算类型或变量所占的内存大小 单位byte
+    printf("%d\n",sizeof(char));
+    printf("%d\n",sizeof(long));
+    printf("%d\n",sizeof(float));
+    printf("%d\n",sizeof(double));
+    printf("%d\n",sizeof(int));
+    return 0;
+}
